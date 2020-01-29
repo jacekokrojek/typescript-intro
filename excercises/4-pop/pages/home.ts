@@ -16,10 +16,10 @@ export class HomePage {
   };
 
   async clickMenuAtIdx (idx) {
-    await this.menuItems.get(idx).click();
+    await this.getMenuTextAtIdx(idx).click();
   };
 
-  getMenuTextAtIdx (idx) {
+  private getMenuTextAtIdx (idx) {
     return this.menuItems.get(idx);
   };
   

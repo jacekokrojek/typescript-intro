@@ -18,6 +18,7 @@
   },
   "author": "Jacek Okrojek",
   "dependencies": {
+    "@types/node": "^10.17.13",
     "@types/jasmine": "^2.8.16",
     "@types/jasminewd2": "^2.0.8",
     "@types/node": "^10.17.14",
@@ -27,9 +28,12 @@
     "fs": "0.0.1-security",
     "jasmine": "2.8.0",
     "jasmine-reporters": "^2.3.2",
+    "moment": "^2.24.0",
     "protractor": "^5.4.2",
     "ts-node": "^7.0.1",
     "typescript": "^3.0.1",
-    "winston": "^3.2.0"
+    "winston": "^3.2.0",
+    "java": "^0.12.1",
+    "path": "^0.12.7"
   }
 }

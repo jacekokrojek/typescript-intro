@@ -21,4 +21,7 @@ describe('Protractor workshop app', function () {
 		expect(pageTitle).toEqual("Protractor workshop | Admin");
 	});
 
+	// Zadanie: Podziel specyfikację na dwi w zalażności od testowanej strony, przenieś otwarcie strony 
+	// do funkcji before, wykorzystaj parametry baseUrl
+
 });

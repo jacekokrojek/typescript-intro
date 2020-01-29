@@ -20,12 +20,11 @@ describe('Protractor workshop app', function () {
 	 */
 
 	xit('should have "Example headline 1" carousel item after entering site', function () {
-		//TODO: locate element using css locator
+		//Zadaie : Zlokalizuj i sprawdź element wykorzystując lokatory css
 	});
 
 	xit('should have correct feature header', function () {
-		//TODO: locate element using Xpath locator
+		//Zadaie : Zlokalizuj i sprawdź element wykorzystując lokator XPath
 	});
-
 	
 });
