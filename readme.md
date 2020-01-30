@@ -22,7 +22,7 @@ Moduł ts-node pozwala na uruchamianie kodu TypeScript jednym poleceniem. Jeśli
 `npm install -g ts-node`
 `ts-node sample.ts`
 
-
+Alternatywnie możemy korzystać z wersji lokalnej
 `npm install ts-node`
 `npx ts-node sample.ts`
 `node node_modules/ts-node/dist/bin.js sample.ts`
