@@ -2,7 +2,8 @@
 
 * Zainstaluj Python 3.7.3
 * Wykonaj polecenie `npm install -g node-gyp` (może nie być potrzebne)
-* Wykonaj polecenie `npm install --global windows-build-tools`
+* Wykonaj polecenie (Windows) `npm install --global windows-build-tools`
+* Wykonaj polecenie (inux) `sudo apt get install make g++`
 * Wykonaj polecenia `npm install java`
 * Download jar file from https://raiman.github.io/SikuliX1/downloads.html (https://launchpad.net/sikuli/sikulix/2.0.1/+download/sikulixapi-2.0.1.jar)
 
