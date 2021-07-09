@@ -1,12 +1,18 @@
 function calculate(...args) {
-    if (args.length === 0 )
+    let sum = 0;
+    if (args.length === 0 ){
         throw new Error("Brak argumentów")
-    // Kod funkcji
+    }else{
+        for(let i=0;i<args.length;i++){
+            sum+=args[i];
+        }
+    }
+    return sum;
+    
 }
-
 try {
-    calculate();
+    console.log(calculate());
 }
 catch(e) {
-    console.log(e)
+    console.log(e);
 }

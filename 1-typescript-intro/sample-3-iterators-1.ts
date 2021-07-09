@@ -30,3 +30,4 @@ someArray.forEach (function (el, idx){
 // var pad = "0000";
 // var n = '5';
 // var result = (pad+n).slice(-pad.length);
+//generator pesel 

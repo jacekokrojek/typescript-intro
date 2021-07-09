@@ -13,7 +13,7 @@ export function logAction(target: Object, propertyKey: string, descriptor: Typed
         return result;
     };
 
-    return descriptor;
+return descriptor;
 }
 
 class AnotherImportantClass {
