@@ -1,8 +1,8 @@
 import "jasmine";
-
-describe("something", () => {
-    it("should work", () => {
-        expect(true).toBe(true);
+import {GeneratePESEL} from "../1-typescript-intro/pesel";
+describe("Check if generator works coretly", () => {
+    xit("should work", () => {
+       
     });
 });
 
